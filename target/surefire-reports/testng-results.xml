@@ -11,12 +11,12 @@
       <![CDATA[Home page loaded sucessfully]]>
     </line>
   </reporter-output>
-  <suite name="Ecommerce test run" duration-ms="359492" started-at="2017-12-05T14:12:24Z" finished-at="2017-12-05T14:18:24Z">
+  <suite name="Ecommerce test run" duration-ms="350247" started-at="2017-12-05T14:28:15Z" finished-at="2017-12-05T14:34:05Z">
     <groups>
     </groups>
-    <test name="Place Order" duration-ms="359492" started-at="2017-12-05T14:12:24Z" finished-at="2017-12-05T14:18:24Z">
-      <class name="Driver.OrderFlow_Mobile">
-        <test-method status="PASS" signature="Addtocart_mob(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Driver.OrderFlow_Mobile@54a097cc]" name="Addtocart_mob" duration-ms="104415" started-at="2017-12-05T19:42:24Z" finished-at="2017-12-05T19:44:09Z">
+    <test name="Place Order" duration-ms="350247" started-at="2017-12-05T14:28:15Z" finished-at="2017-12-05T14:34:05Z">
+      <class name="Ecomm.OrderFlow_Mobile">
+        <test-method status="PASS" signature="Addtocart_mob(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Ecomm.OrderFlow_Mobile@54a097cc]" name="Addtocart_mob" duration-ms="117575" started-at="2017-12-05T19:58:15Z" finished-at="2017-12-05T20:00:12Z">
           <params>
             <param index="0">
               <value>
@@ -45,7 +45,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Addtocart_mob -->
-        <test-method status="PASS" signature="Checkoutcart_mob(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Driver.OrderFlow_Mobile@54a097cc]" name="Checkoutcart_mob" duration-ms="119930" started-at="2017-12-05T19:44:09Z" finished-at="2017-12-05T19:46:09Z">
+        <test-method status="PASS" signature="Checkoutcart_mob(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Ecomm.OrderFlow_Mobile@54a097cc]" name="Checkoutcart_mob" duration-ms="110903" started-at="2017-12-05T20:00:12Z" finished-at="2017-12-05T20:02:03Z">
           <params>
             <param index="0">
               <value>
@@ -74,7 +74,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Checkoutcart_mob -->
-        <test-method status="PASS" signature="PlaceOrder_mob(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Driver.OrderFlow_Mobile@54a097cc]" name="PlaceOrder_mob" duration-ms="135142" started-at="2017-12-05T19:46:09Z" finished-at="2017-12-05T19:48:24Z">
+        <test-method status="PASS" signature="PlaceOrder_mob(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Ecomm.OrderFlow_Mobile@54a097cc]" name="PlaceOrder_mob" duration-ms="121753" started-at="2017-12-05T20:02:03Z" finished-at="2017-12-05T20:04:05Z">
           <params>
             <param index="0">
               <value>
@@ -103,7 +103,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- PlaceOrder_mob -->
-      </class> <!-- Driver.OrderFlow_Mobile -->
+      </class> <!-- Ecomm.OrderFlow_Mobile -->
     </test> <!-- Place Order -->
   </suite> <!-- Ecommerce test run -->
 </testng-results>
