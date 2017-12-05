@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 4.382 sec <<< FAILURE! - in TestSuite
+Addtocart_mob(com.Ecomm.framework.OrderFlow_Mobile)  Time elapsed: 2.583 sec  <<< FAILURE!
+com.perfecto.reportium.exception.ReportiumException: Missing required webdriver argument. Call your builder's withWebDriver() method
+	at com.perfecto.reportium.model.PerfectoExecutionContext.<init>(PerfectoExecutionContext.java:23)
+	at com.perfecto.reportium.model.PerfectoExecutionContext$PerfectoExecutionContextBuilder.build(PerfectoExecutionContext.java:42)
+	at com.Ecomm.framework.OrderFlow_Mobile.Addtocart_mob(OrderFlow_Mobile.java:52)
+
+Checkoutcart_mob(com.Ecomm.framework.OrderFlow_Mobile)  Time elapsed: 0.547 sec  <<< FAILURE!
+com.perfecto.reportium.exception.ReportiumException: Missing required webdriver argument. Call your builder's withWebDriver() method
+	at com.perfecto.reportium.model.PerfectoExecutionContext.<init>(PerfectoExecutionContext.java:23)
+	at com.perfecto.reportium.model.PerfectoExecutionContext$PerfectoExecutionContextBuilder.build(PerfectoExecutionContext.java:42)
+	at com.Ecomm.framework.OrderFlow_Mobile.Checkoutcart_mob(OrderFlow_Mobile.java:116)
+
+PlaceOrder_mob(com.Ecomm.framework.OrderFlow_Mobile)  Time elapsed: 0.543 sec  <<< FAILURE!
+com.perfecto.reportium.exception.ReportiumException: Missing required webdriver argument. Call your builder's withWebDriver() method
+	at com.perfecto.reportium.model.PerfectoExecutionContext.<init>(PerfectoExecutionContext.java:23)
+	at com.perfecto.reportium.model.PerfectoExecutionContext$PerfectoExecutionContextBuilder.build(PerfectoExecutionContext.java:42)
+	at com.Ecomm.framework.OrderFlow_Mobile.PlaceOrder_mob(OrderFlow_Mobile.java:190)
+
