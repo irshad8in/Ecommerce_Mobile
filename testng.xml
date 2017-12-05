@@ -9,7 +9,7 @@
 		
   	<test name="Place Order" group-by-instances="true">
     	<classes>
-      		<class name="test.Ecomm.OrderFlow_Mobile"/>
+      		<class name="com.Ecomm.framework.OrderFlow_Mobile"/>
     	</classes>
   	</test>
   	
