@@ -1,4 +1,4 @@
-package Utils;
+package main.Utils;
 
 import com.perfectomobile.selenium.util.EclipseConnector;
 import org.openqa.selenium.OutputType;

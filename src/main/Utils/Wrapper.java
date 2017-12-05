@@ -1,4 +1,4 @@
-package Utils;
+package main.Utils;
 
 import java.io.IOException;
 import java.net.URL;
@@ -22,10 +22,10 @@ import org.testng.Reporter;
 
 import com.perfecto.reportium.client.ReportiumClient;
 
-import constants.*;
+import main.constants.*;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.ios.IOSDriver;
-import Utils.*;
+import main.Utils.*;
 
 public class Wrapper implements PerfectoConstants,ApplicationConstants {
 	

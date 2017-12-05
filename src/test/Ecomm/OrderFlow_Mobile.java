@@ -1,4 +1,4 @@
-package Ecomm;
+package test.Ecomm;
 
 import java.io.*;
 import java.net.*;
@@ -23,12 +23,12 @@ import com.perfecto.reportium.model.Project;
 import com.perfecto.reportium.test.TestContext;
 import com.perfecto.reportium.test.result.TestResultFactory;
 
-import Pages.ConfirmOrderPage;
-import Pages.Homepage;
-import Utils.*;
-import constants.*;
+import main.Pages.ConfirmOrderPage;
+import main.Pages.Homepage;
+import main.Utils.*;
+import main.constants.*;
 
-@Listeners(Utils.TestNG_Listener.class)
+@Listeners(main.Utils.TestNG_Listener.class)
 public class OrderFlow_Mobile implements ApplicationConstants,PerfectoConstants {
 	Wrapper wp = new Wrapper();
 	AppiumDriver driver;
