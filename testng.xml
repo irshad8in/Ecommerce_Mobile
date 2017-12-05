@@ -9,7 +9,7 @@
 		
   	<test name="Place Order" group-by-instances="true">
     	<classes>
-      		<class name="Driver.OrderFlow_Mobile"/>
+      		<class name="Ecomm.OrderFlow_Mobile"/>
     	</classes>
   	</test>
   	
