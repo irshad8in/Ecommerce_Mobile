@@ -1,5 +1,5 @@
 #surefire
-#Tue Dec 05 19:58:14 IST 2017
+#Tue Dec 05 20:11:53 IST 2017
 testng.configurator=org.apache.maven.surefire.testng.conf.TestNG652Configurator
 testng.test.classpath=C\:\\Users\\Shahed\\git\\Ecommerce_Mobile\\target\\test-classes
 classPathUrl.0=C\:\\Users\\Shahed\\git\\Ecommerce_Mobile\\target\\test-classes
