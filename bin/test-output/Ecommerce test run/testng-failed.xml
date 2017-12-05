@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Ecommerce test run]">
+  <parameter name="persona" value="Georgia"/>
+  <parameter name="deviceModel" value="iPhone-6"/>
+  <parameter name="mobileOS" value="iOS"/>
+  <test name="Place Order(failed)">
+    <classes>
+      <class name="Driver.OrderFlow_Mobile">
+        <methods>
+          <include name="PlaceOrder_mob" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Driver.OrderFlow_Mobile -->
+    </classes>
+  </test> <!-- Place Order(failed) -->
+</suite> <!-- Failed suite [Ecommerce test run] -->

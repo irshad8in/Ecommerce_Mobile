@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Home page loaded sucessfully]]>
+    </line>
+  </reporter-output>
+  <suite name="Ecommerce test run" duration-ms="139005" started-at="2017-12-04T13:34:51Z" finished-at="2017-12-04T13:37:10Z">
+    <groups>
+    </groups>
+    <test name="Place Order" duration-ms="139005" started-at="2017-12-04T13:34:51Z" finished-at="2017-12-04T13:37:10Z">
+      <class name="Driver.OrderFlow_Mobile">
+        <test-method status="PASS" signature="PlaceOrder_mob(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:Driver.OrderFlow_Mobile@6adede5]" name="PlaceOrder_mob" duration-ms="138973" started-at="2017-12-04T19:04:51Z" finished-at="2017-12-04T19:07:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iOS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iPhone-6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Georgia]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Home page loaded sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- PlaceOrder_mob -->
+      </class> <!-- Driver.OrderFlow_Mobile -->
+    </test> <!-- Place Order -->
+  </suite> <!-- Ecommerce test run -->
+</testng-results>

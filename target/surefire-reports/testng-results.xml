@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Home page loaded sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Home page loaded sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Home page loaded sucessfully]]>
+    </line>
+  </reporter-output>
+  <suite name="Ecommerce test run" duration-ms="344356" started-at="2017-12-05T12:14:52Z" finished-at="2017-12-05T12:20:37Z">
+    <groups>
+    </groups>
+    <test name="Place Order" duration-ms="344356" started-at="2017-12-05T12:14:52Z" finished-at="2017-12-05T12:20:37Z">
+      <class name="Driver.OrderFlow_Mobile">
+        <test-method status="PASS" signature="Addtocart_mob(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Driver.OrderFlow_Mobile@3551a94]" name="Addtocart_mob" duration-ms="113433" started-at="2017-12-05T17:44:52Z" finished-at="2017-12-05T17:46:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iOS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11.1.2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[iPhone-6]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Georgia]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Home page loaded sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Addtocart_mob -->
+        <test-method status="PASS" signature="Checkoutcart_mob(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Driver.OrderFlow_Mobile@3551a94]" name="Checkoutcart_mob" duration-ms="110481" started-at="2017-12-05T17:46:46Z" finished-at="2017-12-05T17:48:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iOS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11.1.2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[iPhone-6]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Georgia]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Home page loaded sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Checkoutcart_mob -->
+        <test-method status="PASS" signature="PlaceOrder_mob(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Driver.OrderFlow_Mobile@3551a94]" name="PlaceOrder_mob" duration-ms="120363" started-at="2017-12-05T17:48:36Z" finished-at="2017-12-05T17:50:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iOS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11.1.2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[iPhone-6]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Georgia]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Home page loaded sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- PlaceOrder_mob -->
+      </class> <!-- Driver.OrderFlow_Mobile -->
+    </test> <!-- Place Order -->
+  </suite> <!-- Ecommerce test run -->
+</testng-results>
