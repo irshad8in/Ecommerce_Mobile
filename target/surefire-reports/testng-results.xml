@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="3" total="3" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Ecommerce test run" duration-ms="3701" started-at="2017-12-05T15:54:25Z" finished-at="2017-12-05T15:54:29Z">
+  <suite name="Ecommerce test run" duration-ms="84030" started-at="2017-12-05T15:55:23Z" finished-at="2017-12-05T15:56:47Z">
     <groups>
     </groups>
-    <test name="Place Order" duration-ms="3701" started-at="2017-12-05T15:54:25Z" finished-at="2017-12-05T15:54:29Z">
+    <test name="Place Order" duration-ms="84030" started-at="2017-12-05T15:55:23Z" finished-at="2017-12-05T15:56:47Z">
       <class name="com.Ecomm.framework.OrderFlow_Mobile">
-        <test-method status="FAIL" signature="Addtocart_mob(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecomm.framework.OrderFlow_Mobile@9f70c54]" name="Addtocart_mob" duration-ms="2579" started-at="2017-12-05T21:24:25Z" finished-at="2017-12-05T21:24:28Z">
+        <test-method status="FAIL" signature="Addtocart_mob(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecomm.framework.OrderFlow_Mobile@9f70c54]" name="Addtocart_mob" duration-ms="41767" started-at="2017-12-05T21:25:23Z" finished-at="2017-12-05T21:26:04Z">
           <params>
             <param index="0">
               <value>
@@ -16,7 +16,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[11.1.2]]>
+                <![CDATA[11.2]]>
               </value>
             </param>
             <param index="2">
@@ -72,7 +72,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Addtocart_mob -->
-        <test-method status="FAIL" signature="Checkoutcart_mob(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecomm.framework.OrderFlow_Mobile@9f70c54]" name="Checkoutcart_mob" duration-ms="547" started-at="2017-12-05T21:24:28Z" finished-at="2017-12-05T21:24:28Z">
+        <test-method status="FAIL" signature="Checkoutcart_mob(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecomm.framework.OrderFlow_Mobile@9f70c54]" name="Checkoutcart_mob" duration-ms="21142" started-at="2017-12-05T21:26:04Z" finished-at="2017-12-05T21:26:25Z">
           <params>
             <param index="0">
               <value>
@@ -81,7 +81,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[11.1.2]]>
+                <![CDATA[11.2]]>
               </value>
             </param>
             <param index="2">
@@ -137,7 +137,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Checkoutcart_mob -->
-        <test-method status="FAIL" signature="PlaceOrder_mob(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecomm.framework.OrderFlow_Mobile@9f70c54]" name="PlaceOrder_mob" duration-ms="542" started-at="2017-12-05T21:24:28Z" finished-at="2017-12-05T21:24:29Z">
+        <test-method status="FAIL" signature="PlaceOrder_mob(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecomm.framework.OrderFlow_Mobile@9f70c54]" name="PlaceOrder_mob" duration-ms="21096" started-at="2017-12-05T21:26:25Z" finished-at="2017-12-05T21:26:47Z">
           <params>
             <param index="0">
               <value>
@@ -146,7 +146,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[11.1.2]]>
+                <![CDATA[11.2]]>
               </value>
             </param>
             <param index="2">
