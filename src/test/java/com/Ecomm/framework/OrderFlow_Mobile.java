@@ -55,6 +55,7 @@ public class OrderFlow_Mobile implements ApplicationConstants,PerfectoConstants 
         try {
             reportiumClient.testStart("Addtocart_mob", new TestContext("tag2", "tag3"));
             reportiumClient.stepStart("Loading Application URL");
+            driver.manage().timeouts().pageLoadTimeout(15, TimeUnit.SECONDS);
             driver.get(APP_URL);
     		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
     		
@@ -119,6 +120,7 @@ public class OrderFlow_Mobile implements ApplicationConstants,PerfectoConstants 
             try {
                 reportiumClient.testStart("Checkoutcart_mob", new TestContext("tag2", "tag3"));
                 reportiumClient.stepStart("Loading Application URL");
+                driver.manage().timeouts().pageLoadTimeout(15, TimeUnit.SECONDS);
                 driver.get(APP_URL);
         		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
         		
@@ -194,6 +196,7 @@ public class OrderFlow_Mobile implements ApplicationConstants,PerfectoConstants 
                 reportiumClient.testStart("PlaceOrder_mob", new TestContext("tag2", "tag3"));
                 reportiumClient.stepStart("Loading Application URL");
                 driver.get(APP_URL);
+                driver.manage().timeouts().pageLoadTimeout(15, TimeUnit.SECONDS);
         		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
         		
     			if(wp.waitForElement(driver, Verify_HomeScreen)){
