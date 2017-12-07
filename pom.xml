@@ -36,6 +36,13 @@
 		</plugins>
 	</build>
 	<!-- Include the following dependencies -->
+	<repositories>
+		<repository>
+	    <id>perfectomobile</id>
+	    <name>Perfecto mobile</name>
+	    <url>http://repository-perfectomobile.forge.cloudbees.com/public</url>
+		</repository>
+	</repositories>
 	<dependencies>
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
