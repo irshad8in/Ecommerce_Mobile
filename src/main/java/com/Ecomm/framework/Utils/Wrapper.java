@@ -94,7 +94,9 @@ public class Wrapper implements PerfectoConstants,ApplicationConstants {
 		}
 		catch(Exception e){
 			Reporter.log("Error occured on waiting for the element to appear  - "+ e);
+			driver.quit();
 			throw new Exception ("Error occured on waiting for the element to appear  - "+ e);
+			
             
 		}
 	}
