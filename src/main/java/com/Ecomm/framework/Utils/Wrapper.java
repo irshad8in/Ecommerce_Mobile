@@ -88,7 +88,7 @@ public class Wrapper implements PerfectoConstants,ApplicationConstants {
 	
 	public boolean waitForElement(AppiumDriver<WebElement> driver,By objPath) throws Exception{
 		try{
-			WebDriverWait wait = new WebDriverWait(driver, 30);
+			WebDriverWait wait = new WebDriverWait(driver, 180);
     		wait.until(ExpectedConditions.visibilityOfElementLocated(objPath));
     		return true;
 		}
