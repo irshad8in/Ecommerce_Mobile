@@ -1,13 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="0" failed="3" total="3" passed="0">
   <reporter-output>
+    <line>
+      <![CDATA[Error occured on waiting for the element to appear  - org.openqa.selenium.TimeoutException: Timed out after 180 seconds waiting for visibility of element located by By.id: username
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'NEWT526', ip: '172.27.96.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=demo@newtglobal.com_RemoteWebDriver_17-12-08_14_29_25_2208&_timestamp[0]=1512743365682, eclipseExecutionId=demo@newtglobal.com_Eclipse_17-12-08_13_00_51_2068, windTunnelPersona=Georgia, deviceName=955B0252C50AFBAFF240E6AC814CF4FB1E9F03CF, platform=ANY, password=, platformVersion=10.3.1, automationName=appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=demo@newtglobal.com_RemoteWebDriver_17-12-08_14_29_25_2208&_timestamp[0]=1512743365682, browserName=mobileOS, takesScreenshot=true, model=iPhone-7, javascriptEnabled=true, platformName=iOS, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=demo@newtglobal.com_RemoteWebDriver_17-12-08_14_29_25_2208&_timestamp[0]=1512743365682, entityType=remote_web_driver, version=, serverConnector=, securityToken=, executionId=demo@newtglobal.com_RemoteWebDriver_17-12-08_14_29_25_2208, webdriver.remote.sessionid=7f5ea478-62fd-465d-a262-4bf887f5c34b, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=demo@newtglobal.com_RemoteWebDriver_17-12-08_14_29_25_2208, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=demo@newtglobal.com_RemoteWebDriver_17-12-08_14_29_25_2208&_timestamp[0]=1512743365682, user=, cssSelectorsEnabled=true}]
+Session ID: 7f5ea478-62fd-465d-a262-4bf887f5c34b]]>
+    </line>
+    <line>
+      <![CDATA[Error occured on waiting for the element to appear  - org.openqa.selenium.TimeoutException: Timed out after 180 seconds waiting for visibility of element located by By.id: username
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'NEWT526', ip: '172.27.96.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=demo@newtglobal.com_RemoteWebDriver_17-12-08_14_33_28_2215&_timestamp[0]=1512743608337, eclipseExecutionId=demo@newtglobal.com_Eclipse_17-12-08_13_00_51_2068, windTunnelPersona=Georgia, deviceName=955B0252C50AFBAFF240E6AC814CF4FB1E9F03CF, platform=ANY, password=, platformVersion=10.3.1, automationName=appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=demo@newtglobal.com_RemoteWebDriver_17-12-08_14_33_28_2215&_timestamp[0]=1512743608337, browserName=mobileOS, takesScreenshot=true, model=iPhone-7, javascriptEnabled=true, platformName=iOS, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=demo@newtglobal.com_RemoteWebDriver_17-12-08_14_33_28_2215&_timestamp[0]=1512743608337, entityType=remote_web_driver, version=, serverConnector=, securityToken=, executionId=demo@newtglobal.com_RemoteWebDriver_17-12-08_14_33_28_2215, webdriver.remote.sessionid=d0aad379-2ac9-475b-99ab-574e77d1712d, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=demo@newtglobal.com_RemoteWebDriver_17-12-08_14_33_28_2215, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=demo@newtglobal.com_RemoteWebDriver_17-12-08_14_33_28_2215&_timestamp[0]=1512743608337, user=, cssSelectorsEnabled=true}]
+Session ID: d0aad379-2ac9-475b-99ab-574e77d1712d]]>
+    </line>
+    <line>
+      <![CDATA[Error occured on waiting for the element to appear  - org.openqa.selenium.TimeoutException: Timed out after 180 seconds waiting for visibility of element located by By.id: username
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'NEWT526', ip: '172.27.96.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=demo@newtglobal.com_RemoteWebDriver_17-12-08_14_37_26_2232&_timestamp[0]=1512743846505, eclipseExecutionId=demo@newtglobal.com_Eclipse_17-12-08_13_00_51_2068, windTunnelPersona=Georgia, deviceName=955B0252C50AFBAFF240E6AC814CF4FB1E9F03CF, platform=ANY, password=, platformVersion=10.3.1, automationName=appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=demo@newtglobal.com_RemoteWebDriver_17-12-08_14_37_26_2232&_timestamp[0]=1512743846505, browserName=mobileOS, takesScreenshot=true, model=iPhone-7, javascriptEnabled=true, platformName=iOS, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=demo@newtglobal.com_RemoteWebDriver_17-12-08_14_37_26_2232&_timestamp[0]=1512743846505, entityType=remote_web_driver, version=, serverConnector=, securityToken=, executionId=demo@newtglobal.com_RemoteWebDriver_17-12-08_14_37_26_2232, webdriver.remote.sessionid=f995b93c-2cee-4d4a-be1b-1db6bde36faa, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=demo@newtglobal.com_RemoteWebDriver_17-12-08_14_37_26_2232, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=demo@newtglobal.com_RemoteWebDriver_17-12-08_14_37_26_2232&_timestamp[0]=1512743846505, user=, cssSelectorsEnabled=true}]
+Session ID: f995b93c-2cee-4d4a-be1b-1db6bde36faa]]>
+    </line>
   </reporter-output>
-  <suite name="Ecommerce test run" duration-ms="84030" started-at="2017-12-05T15:55:23Z" finished-at="2017-12-05T15:56:47Z">
+  <suite name="Ecommerce test run" duration-ms="716413" started-at="2017-12-08T14:29:23Z" finished-at="2017-12-08T14:41:19Z">
     <groups>
     </groups>
-    <test name="Place Order" duration-ms="84030" started-at="2017-12-05T15:55:23Z" finished-at="2017-12-05T15:56:47Z">
+    <test name="Place Order" duration-ms="716413" started-at="2017-12-08T14:29:23Z" finished-at="2017-12-08T14:41:19Z">
       <class name="com.Ecomm.framework.OrderFlow_Mobile">
-        <test-method status="FAIL" signature="Addtocart_mob(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecomm.framework.OrderFlow_Mobile@9f70c54]" name="Addtocart_mob" duration-ms="41767" started-at="2017-12-05T21:25:23Z" finished-at="2017-12-05T21:26:04Z">
+        <test-method status="FAIL" signature="Addtocart_mob(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecomm.framework.OrderFlow_Mobile@9f70c54]" name="Addtocart_mob" duration-ms="244589" started-at="2017-12-08T19:59:23Z" finished-at="2017-12-08T20:03:28Z">
           <params>
             <param index="0">
               <value>
@@ -16,12 +40,12 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[11.2]]>
+                <![CDATA[10.3.1]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[iPhone-6]]>
+                <![CDATA[iPhone-7]]>
               </value>
             </param>
             <param index="3">
@@ -30,15 +54,28 @@
               </value>
             </param>
           </params>
-          <exception class="com.perfecto.reportium.exception.ReportiumException">
+          <exception class="org.openqa.selenium.remote.SessionNotFoundException">
             <message>
-              <![CDATA[Missing required webdriver argument. Call your builder's withWebDriver() method]]>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'NEWT526', ip: '172.27.96.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'
+Driver info: driver.version: RemoteWebDriver]]>
             </message>
             <full-stacktrace>
-              <![CDATA[com.perfecto.reportium.exception.ReportiumException: Missing required webdriver argument. Call your builder's withWebDriver() method
-	at com.perfecto.reportium.model.PerfectoExecutionContext.<init>(PerfectoExecutionContext.java:23)
-	at com.perfecto.reportium.model.PerfectoExecutionContext$PerfectoExecutionContextBuilder.build(PerfectoExecutionContext.java:42)
-	at com.Ecomm.framework.OrderFlow_Mobile.Addtocart_mob(OrderFlow_Mobile.java:52)
+              <![CDATA[org.openqa.selenium.remote.SessionNotFoundException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'NEWT526', ip: '172.27.96.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:69)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:572)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:508)
+	at com.perfecto.reportium.client.PerfectoReportiumClient.executeScript(PerfectoReportiumClient.java:155)
+	at com.perfecto.reportium.client.PerfectoReportiumClient.testStop(PerfectoReportiumClient.java:127)
+	at com.Ecomm.framework.OrderFlow_Mobile.Addtocart_mob(OrderFlow_Mobile.java:83)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -68,11 +105,19 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
 ]]>
             </full-stacktrace>
-          </exception> <!-- com.perfecto.reportium.exception.ReportiumException -->
+          </exception> <!-- org.openqa.selenium.remote.SessionNotFoundException -->
           <reporter-output>
+            <line>
+              <![CDATA[Error occured on waiting for the element to appear  - org.openqa.selenium.TimeoutException: Timed out after 180 seconds waiting for visibility of element located by By.id: username
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'NEWT526', ip: '172.27.96.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=demo@newtglobal.com_RemoteWebDriver_17-12-08_14_29_25_2208&_timestamp[0]=1512743365682, eclipseExecutionId=demo@newtglobal.com_Eclipse_17-12-08_13_00_51_2068, windTunnelPersona=Georgia, deviceName=955B0252C50AFBAFF240E6AC814CF4FB1E9F03CF, platform=ANY, password=, platformVersion=10.3.1, automationName=appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=demo@newtglobal.com_RemoteWebDriver_17-12-08_14_29_25_2208&_timestamp[0]=1512743365682, browserName=mobileOS, takesScreenshot=true, model=iPhone-7, javascriptEnabled=true, platformName=iOS, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=demo@newtglobal.com_RemoteWebDriver_17-12-08_14_29_25_2208&_timestamp[0]=1512743365682, entityType=remote_web_driver, version=, serverConnector=, securityToken=, executionId=demo@newtglobal.com_RemoteWebDriver_17-12-08_14_29_25_2208, webdriver.remote.sessionid=7f5ea478-62fd-465d-a262-4bf887f5c34b, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=demo@newtglobal.com_RemoteWebDriver_17-12-08_14_29_25_2208, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=demo@newtglobal.com_RemoteWebDriver_17-12-08_14_29_25_2208&_timestamp[0]=1512743365682, user=, cssSelectorsEnabled=true}]
+Session ID: 7f5ea478-62fd-465d-a262-4bf887f5c34b]]>
+            </line>
           </reporter-output>
         </test-method> <!-- Addtocart_mob -->
-        <test-method status="FAIL" signature="Checkoutcart_mob(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecomm.framework.OrderFlow_Mobile@9f70c54]" name="Checkoutcart_mob" duration-ms="21142" started-at="2017-12-05T21:26:04Z" finished-at="2017-12-05T21:26:25Z">
+        <test-method status="FAIL" signature="Checkoutcart_mob(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecomm.framework.OrderFlow_Mobile@9f70c54]" name="Checkoutcart_mob" duration-ms="238167" started-at="2017-12-08T20:03:28Z" finished-at="2017-12-08T20:07:26Z">
           <params>
             <param index="0">
               <value>
@@ -81,12 +126,12 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[11.2]]>
+                <![CDATA[10.3.1]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[iPhone-6]]>
+                <![CDATA[iPhone-7]]>
               </value>
             </param>
             <param index="3">
@@ -95,15 +140,28 @@
               </value>
             </param>
           </params>
-          <exception class="com.perfecto.reportium.exception.ReportiumException">
+          <exception class="org.openqa.selenium.remote.SessionNotFoundException">
             <message>
-              <![CDATA[Missing required webdriver argument. Call your builder's withWebDriver() method]]>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'NEWT526', ip: '172.27.96.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'
+Driver info: driver.version: RemoteWebDriver]]>
             </message>
             <full-stacktrace>
-              <![CDATA[com.perfecto.reportium.exception.ReportiumException: Missing required webdriver argument. Call your builder's withWebDriver() method
-	at com.perfecto.reportium.model.PerfectoExecutionContext.<init>(PerfectoExecutionContext.java:23)
-	at com.perfecto.reportium.model.PerfectoExecutionContext$PerfectoExecutionContextBuilder.build(PerfectoExecutionContext.java:42)
-	at com.Ecomm.framework.OrderFlow_Mobile.Checkoutcart_mob(OrderFlow_Mobile.java:116)
+              <![CDATA[org.openqa.selenium.remote.SessionNotFoundException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'NEWT526', ip: '172.27.96.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:69)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:572)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:508)
+	at com.perfecto.reportium.client.PerfectoReportiumClient.executeScript(PerfectoReportiumClient.java:155)
+	at com.perfecto.reportium.client.PerfectoReportiumClient.testStop(PerfectoReportiumClient.java:127)
+	at com.Ecomm.framework.OrderFlow_Mobile.Checkoutcart_mob(OrderFlow_Mobile.java:156)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -133,11 +191,19 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
 ]]>
             </full-stacktrace>
-          </exception> <!-- com.perfecto.reportium.exception.ReportiumException -->
+          </exception> <!-- org.openqa.selenium.remote.SessionNotFoundException -->
           <reporter-output>
+            <line>
+              <![CDATA[Error occured on waiting for the element to appear  - org.openqa.selenium.TimeoutException: Timed out after 180 seconds waiting for visibility of element located by By.id: username
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'NEWT526', ip: '172.27.96.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=demo@newtglobal.com_RemoteWebDriver_17-12-08_14_33_28_2215&_timestamp[0]=1512743608337, eclipseExecutionId=demo@newtglobal.com_Eclipse_17-12-08_13_00_51_2068, windTunnelPersona=Georgia, deviceName=955B0252C50AFBAFF240E6AC814CF4FB1E9F03CF, platform=ANY, password=, platformVersion=10.3.1, automationName=appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=demo@newtglobal.com_RemoteWebDriver_17-12-08_14_33_28_2215&_timestamp[0]=1512743608337, browserName=mobileOS, takesScreenshot=true, model=iPhone-7, javascriptEnabled=true, platformName=iOS, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=demo@newtglobal.com_RemoteWebDriver_17-12-08_14_33_28_2215&_timestamp[0]=1512743608337, entityType=remote_web_driver, version=, serverConnector=, securityToken=, executionId=demo@newtglobal.com_RemoteWebDriver_17-12-08_14_33_28_2215, webdriver.remote.sessionid=d0aad379-2ac9-475b-99ab-574e77d1712d, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=demo@newtglobal.com_RemoteWebDriver_17-12-08_14_33_28_2215, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=demo@newtglobal.com_RemoteWebDriver_17-12-08_14_33_28_2215&_timestamp[0]=1512743608337, user=, cssSelectorsEnabled=true}]
+Session ID: d0aad379-2ac9-475b-99ab-574e77d1712d]]>
+            </line>
           </reporter-output>
         </test-method> <!-- Checkoutcart_mob -->
-        <test-method status="FAIL" signature="PlaceOrder_mob(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecomm.framework.OrderFlow_Mobile@9f70c54]" name="PlaceOrder_mob" duration-ms="21096" started-at="2017-12-05T21:26:25Z" finished-at="2017-12-05T21:26:47Z">
+        <test-method status="FAIL" signature="PlaceOrder_mob(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Ecomm.framework.OrderFlow_Mobile@9f70c54]" name="PlaceOrder_mob" duration-ms="233518" started-at="2017-12-08T20:07:26Z" finished-at="2017-12-08T20:11:19Z">
           <params>
             <param index="0">
               <value>
@@ -146,12 +212,12 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[11.2]]>
+                <![CDATA[10.3.1]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[iPhone-6]]>
+                <![CDATA[iPhone-7]]>
               </value>
             </param>
             <param index="3">
@@ -160,15 +226,28 @@
               </value>
             </param>
           </params>
-          <exception class="com.perfecto.reportium.exception.ReportiumException">
+          <exception class="org.openqa.selenium.remote.SessionNotFoundException">
             <message>
-              <![CDATA[Missing required webdriver argument. Call your builder's withWebDriver() method]]>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'NEWT526', ip: '172.27.96.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'
+Driver info: driver.version: RemoteWebDriver]]>
             </message>
             <full-stacktrace>
-              <![CDATA[com.perfecto.reportium.exception.ReportiumException: Missing required webdriver argument. Call your builder's withWebDriver() method
-	at com.perfecto.reportium.model.PerfectoExecutionContext.<init>(PerfectoExecutionContext.java:23)
-	at com.perfecto.reportium.model.PerfectoExecutionContext$PerfectoExecutionContextBuilder.build(PerfectoExecutionContext.java:42)
-	at com.Ecomm.framework.OrderFlow_Mobile.PlaceOrder_mob(OrderFlow_Mobile.java:190)
+              <![CDATA[org.openqa.selenium.remote.SessionNotFoundException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'NEWT526', ip: '172.27.96.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:69)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:572)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:508)
+	at com.perfecto.reportium.client.PerfectoReportiumClient.executeScript(PerfectoReportiumClient.java:155)
+	at com.perfecto.reportium.client.PerfectoReportiumClient.testStop(PerfectoReportiumClient.java:127)
+	at com.Ecomm.framework.OrderFlow_Mobile.PlaceOrder_mob(OrderFlow_Mobile.java:234)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -198,8 +277,16 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
 ]]>
             </full-stacktrace>
-          </exception> <!-- com.perfecto.reportium.exception.ReportiumException -->
+          </exception> <!-- org.openqa.selenium.remote.SessionNotFoundException -->
           <reporter-output>
+            <line>
+              <![CDATA[Error occured on waiting for the element to appear  - org.openqa.selenium.TimeoutException: Timed out after 180 seconds waiting for visibility of element located by By.id: username
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'NEWT526', ip: '172.27.96.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=demo@newtglobal.com_RemoteWebDriver_17-12-08_14_37_26_2232&_timestamp[0]=1512743846505, eclipseExecutionId=demo@newtglobal.com_Eclipse_17-12-08_13_00_51_2068, windTunnelPersona=Georgia, deviceName=955B0252C50AFBAFF240E6AC814CF4FB1E9F03CF, platform=ANY, password=, platformVersion=10.3.1, automationName=appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=demo@newtglobal.com_RemoteWebDriver_17-12-08_14_37_26_2232&_timestamp[0]=1512743846505, browserName=mobileOS, takesScreenshot=true, model=iPhone-7, javascriptEnabled=true, platformName=iOS, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=demo@newtglobal.com_RemoteWebDriver_17-12-08_14_37_26_2232&_timestamp[0]=1512743846505, entityType=remote_web_driver, version=, serverConnector=, securityToken=, executionId=demo@newtglobal.com_RemoteWebDriver_17-12-08_14_37_26_2232, webdriver.remote.sessionid=f995b93c-2cee-4d4a-be1b-1db6bde36faa, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=demo@newtglobal.com_RemoteWebDriver_17-12-08_14_37_26_2232, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=demo@newtglobal.com_RemoteWebDriver_17-12-08_14_37_26_2232&_timestamp[0]=1512743846505, user=, cssSelectorsEnabled=true}]
+Session ID: f995b93c-2cee-4d4a-be1b-1db6bde36faa]]>
+            </line>
           </reporter-output>
         </test-method> <!-- PlaceOrder_mob -->
       </class> <!-- com.Ecomm.framework.OrderFlow_Mobile -->
