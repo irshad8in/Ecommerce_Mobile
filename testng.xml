@@ -3,8 +3,8 @@
 <suite name="Ecommerce test run">
 
 	<parameter name="mobileOS" value="iOS" />
-	<parameter name="OSVersion" value="11.3" />
-	<parameter name="deviceModel" value="iPhone-6" />
+	<parameter name="OSVersion" value="11.3.1" />
+	<parameter name="deviceModel" value="iPhone-7 Plus" />
 	<parameter name="persona" value="Georgia"/>
 		
   	<test name="Place Order" group-by-instances="true">
